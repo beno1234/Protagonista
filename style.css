@@ -17,12 +17,22 @@
     font-weight: 700; 
 }
 
+@font-face {
+  font-family: 'eveningnormal';
+  src: url('fonts/regular/Evenings-Regular.woff') format('woff');
+  font-weight: 400; 
+}
+
 .franie{
     font-family: 'franie', sans-serif;
 }
 
 .evenings-normal{
-    font-family: 'evening', sans-serif;
+    font-family: 'eveningnormal', sans-serif;
+}
+
+.evenings-bold{
+  font-family: 'evening', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
