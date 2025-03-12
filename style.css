@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'franie';
+    src: url('fonts/franie/Franie-ExtraLight.woff2') format('woff2');
+    font-weight: 200; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'evening';
+    src: url('fonts/evenings/EVENINGS-BOLD.woff') format('woff');
+    font-weight: 700; 
+}
+
+.franie{
+    font-family: 'franie', sans-serif;
+}
+
+.evenings-normal{
+    font-family: 'evening', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .slick-slide {
+      margin: 0 5px !important;
+    }
+  }
+  
+  .carousel2 .slick-slide {
+    margin: 0 10px; /* Aumenta a margem entre as imagens no desktop */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slick-slide {
+      margin: 0 5px !important;
+    }
+  }
+  
+  .slick-carousel .slick-slide {
+    margin: 0 10px; /* Aumenta a margem entre as imagens no desktop */
+  }
